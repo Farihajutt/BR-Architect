@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+       *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+        .section{
+            height: 55px;
+            width: 100%;
+            position: relative;
+            background-color: white;
+            position: fixed;
+            top: 0;
+
+        }
+        .navbar{
+            height: 30px;
+            width: 100%;
+            font-size: 110%;
+            letter-spacing: 2px;
+            position: absolute;
+            margin-top: 15px;
+            left: 30px;
+        
+
+        }
+        .navlist{
+            height: 30px;
+            width: max-content;
+            margin-top: 15px;
+            position: absolute;
+            right: 20px;
+            font-size: 110%;
+        }
+        .one1{
+            list-style: none;
+            display: inline;
+            letter-spacing: 2px;
+            margin-left: 30px;
+        }
+        .section1{
+            height: 130vh;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+            background-position: center;
+            background-size: cover;
+            padding: 1px;
+        }
+        .one2{
+            height: 70px;
+            width: 350px;
+            margin: 380px auto;
+        }
+        .text{
+            height: 70px;
+            width: 80px;
+            background-color: rgba(0, 0, 0, 0.672);
+            padding: 1px;
+            display: inline-block;
+            vertical-align: top;
+           } 
+           .text1{
+            color: white;
+            text-align: center;
+            margin-top: 15px;
+           }
+           .text2{
+            color: white;
+            font-size: 35px;
+            margin-top: 15px;
+            margin-left: 10px;
+            letter-spacing: 3px;
+
+           }
+           .one3{
+            height: 70px;
+            width: 250px;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .section2{
+            height: max-content;
+            width: 100%;
+           }
+           .text3{
+            margin-left: 30px;
+            margin-top: 70px;
+            font-size: 23px;
+            color: rgba(0, 0, 0, 0.777);
+           }
+           .one4{
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            width: 95%;
+            margin-left: 2.5%;
+            margin-top: 20px;
+           }
+           .one5{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 30px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+            background-position: center;
+            background-size: cover;
+            padding: 1px;
+           }
+           .one6{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 30px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one7{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 30px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one8{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 30px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one9{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 15px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image:url(https://www.w3schools.com/w3images/house2.jpg) ;
+            background-position: center;
+            background-size: cover;
+           }
+           .one10{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 15px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image:url(https://www.w3schools.com/w3images/house5.jpg) ;
+            background-position: center;
+            background-size: cover;
+           }
+           .one11{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 15px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image:url(https://www.w3schools.com/w3images/house4.jpg) ;
+            background-position: center;
+            background-size: cover;
+           }
+           .one12{
+            height: 200px;
+            width: 22.5%;
+            margin-top: 15px;
+            margin-left: 2%;
+            display: inline-block;
+            vertical-align: top;
+            background-image:url(https://www.w3schools.com/w3images/house3.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one13{
+            height: 35px;
+            width: 140px;
+            background-color: black;
+            padding: 1px;
+           }
+           .one51{
+            color: white;
+            margin-left: 15px;
+            margin-top:7px;
+           }
+           .one15{
+            margin-left: 30px;
+            margin-top: 70px;
+            font-size: 23px;
+            color: rgba(0, 0, 0, 0.777);
+
+           }
+           .one16{
+            margin-left: 30px;
+            margin-top: 20px;
+            color: rgba(0, 0, 0, 0.777);
+            line-height: 25px;
+            font-size: 110%;
+
+           }
+           .one17{
+            height: 430px;
+            width: 23%;
+            margin-top: 30px;
+            margin-left: 1.5%;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .one18{
+            height: 430px;
+            width: 23%;
+            margin-top: 30px;
+            margin-left: 1.5%;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .one19{
+            height: 430px;
+            width: 23%;
+            margin-top: 30px;
+            margin-left: 1.5%;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .one20{
+            height: 430px;
+            width: 23%;
+            margin-top: 30px;
+            margin-left: 1.5%;
+            display: inline-block;
+            vertical-align: top;
+           }
+           .one21{
+            height: 200px;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/team2.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one22{
+            height: 200px;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/team1.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one23{
+            height: 200px;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/team3.jpg);
+            background-size: cover;
+            background-position: center;
+           }
+           .one24{
+            height: 200px;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/team4.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one25{
+            margin-top: 15px;
+            font-size: 23px;
+            color: rgba(0, 0, 0, 0.777);
+
+           }
+           .one26{
+            margin-top: 20px;
+            color: rgba(0, 0, 0, 0.609);
+           }
+           .one27{
+            margin-top: 20px;
+            line-height: 25px;
+            font-size: 105%;
+            color: rgba(0, 0, 0, 0.777);
+           }
+           .one28{
+            height: 35px;
+            width: 100%;
+            background-color: rgb(241,241,241);
+            margin-top: 10px;
+            border: none;
+            font-size: 105%;
+            cursor: pointer;
+           }
+           .one28:hover{
+            background-color: rgba(128, 128, 128, 0.313);
+           }
+           .one29{
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 105%;
+            color: black;
+           }
+           .one30{
+            height: 35px;
+            width: 95%;
+            margin-left: 2.5%;
+            margin-top: 20px;
+            border: 1px solid rgba(128, 128, 128, 0.655) ;
+            font-size: 105%;
+            padding-left: 10px;
+
+           }
+           .one31{
+            /* height: 35px;
+            width: 13%; */
+            padding: 15px;
+            margin-left: 30px;
+            margin-top: 30px;
+            border: none;
+            font-size: 100%;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+           }
+           .one31:hover{
+            background-color:rgba(128, 128, 128, 0.313) ;
+            color: black;
+           }
+           .one32{
+            height: 670px;
+            width: 95%;
+            margin-left: 2.5%;
+            margin-top: 50px;
+            background-image: url(https://www.w3schools.com/w3images/map.jpg);
+            background-position: center;
+            background-size: cover;
+           }
+           .one33{
+            height: 80px;
+            width: 100%;
+            background-color: black;
+            margin-top: 10px;
+            padding: 1px;
+           }
+           .one34{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 105%;
+           }
+           .one35{
+            color: white;
+           }
+
+
+
+           /* ///////// ------ Media Queries ------- //////// */
+
+         @media screen and (max-width:600px){
+            .navlist{
+                display: none;
+            }
+            .one3{
+                display: none;
+            }
+            .one5{
+                width: 95%  !important;
+            }
+            .one6{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one7{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one8{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one9{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one10{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one11{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one12{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one17{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one18{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+            .one19{
+                /* width: 95%;  */
+                width: 95%  !important;
+            }
+            .one20{
+                /* width: 95%; */
+                width: 95%  !important;
+            }
+
+
+        }
+        @media screen and (max-width:1000px){
+            .one5{
+                width: 47%;
+            }
+            .one6{
+                width: 47%;
+            }
+            .one7{
+                width: 47%;
+            }
+            .one8{
+                width: 47%;
+            }
+            .one9{
+                width: 47%;
+            }
+            .one10{
+                width: 47%;
+            }
+            .one11{
+                width: 47%;
+            }
+            .one12{
+                width: 47%;
+            }
+            .one17{
+                width: 47%;
+            }
+            .one18{
+                width: 47%;
+            }
+            .one19{
+                width: 47%;
+            }
+            .one20{
+                width: 47%;
+            }
+
+        }
+        
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="navbar">
+           <p class="one"><b>BR </b>&nbsp;&nbsp;Architects</p>
+        </div>
+        <div class="navlist">
+            <ul>
+                <li class="one1">Projects</li>
+                <li class="one1">About</li>
+                <li class="one1">Contact</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="one2">
+            <div class="text">
+                <h1 class="text1">B R</h1>
+            </div>
+            <div class="one3">
+                <p class="text2">Architects</p>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <p class="text3">Projects</p>
+        <hr class="one4">
+        <div class="one5">
+            <div class="one13">
+                <p class="one51">Summer House</p>
+            </div>
+        </div>
+        <div class="one6">
+             <div class="one13">
+               <p class="one51">Brick House</p>
+            </div>
+        </div> 
+        <div class="one7">
+             <div class="one13">
+                <p class="one51">Renovated</p>
+            </div>
+        </div> 
+        <div class="one8">
+             <div class="one13">
+                <p class="one51">Barn House</p>
+            </div>
+        </div> 
+        <div class="one9">
+            <div class="one13">
+                <p class="one51">Summer House</p>
+            </div>
+        </div>
+        <div class="one10">
+            <div class="one13">
+                <p class="one51">Brick House</p>
+            </div>
+        </div> 
+        <div class="one11">
+            <div class="one13">
+                <p class="one51">Renovated</p>
+            </div>
+        </div> 
+        <div class="one12">
+            <div class="one13">
+                <p class="one51">Barn House</p>
+            </div>
+        </div> 
+        <p class="one15">About</p>
+        <div class="one4"></div>
+        <p class="one16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br> deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="one17">
+            <div class="one21"></div>
+            <p class="one25">John Doe</p>
+            <p class="one26">CEO & Founder</p>
+            <p class="one27">Phasellus eget enim eu lectus <br> faucibus vestibulum. Suspendisse <br> sodales pellentesque elementum.</p>
+            <button class="one28">Contact</button>
+        </div>
+        <div class="one18">
+            <div class="one22"></div>
+            <p class="one25">Jane Doe</p>
+            <p class="one26">Architect</p>
+            <p class="one27">Phasellus eget enim eu lectus <br> faucibus vestibulum. Suspendisse <br> sodales pellentesque elementum.</p>
+            <button class="one28">Contact</button>
+        </div>
+        <div class="one19">
+            <div class="one23"></div>
+            <p class="one25">Mike Ross</p>
+            <p class="one26">Architect</p>
+            <p class="one27">Phasellus eget enim eu lectus <br> faucibus vestibulum. Suspendisse <br> sodales pellentesque elementum.</p>
+            <button class="one28">Contact</button>
+        </div>
+        <div class="one20">
+            <div class="one24"></div>
+            <p class="one25">Dan Star</p>
+            <p class="one26">Architect</p>
+            <p class="one27">Phasellus eget enim eu lectus <br> faucibus vestibulum. Suspendisse <br> sodales pellentesque elementum.</p>
+            <button class="one28">Contact</button>
+        </div>
+        <div class="one15">Contact</div>
+        <div class="one4"></div>
+        <p class="one29">Lets get in touch and talk about your next project.</p>
+        <input class="one30" type="text" placeholder="Name">
+        <input class="one30" type="text" placeholder="Email">
+        <input class="one30" type="text" placeholder="Subject">
+        <input class="one30" type="text" placeholder="Comment">
+        <button class="one31">SEND MESSAGE</button>
+        <div class="one32"></div>
+        <div class="one33">
+            <p class="one34">Powered by <a class="one35" href="">w3.css</a></p>
+
+        </div>
+        
+
+        
+
+    </div>
+
+
+    
+</body>
+</html>
